@@ -41,6 +41,154 @@ footer p{margin:8px 0}
 .small{font-size:12px;color:#6b7280}
 @media(max-width:600px){.hero{margin:16px;padding:25px 18px}.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.card img{height:135px}.info{padding:10px}.info h3{font-size:14px}header{padding:15px}.logo{font-size:22px}}
 </style>
+/* CHOMOK 360 premium design upgrade */
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+body {
+  font-family: 'Hind Siliguri', 'Plus Jakarta Sans', sans-serif;
+  background: #f4f7fc;
+  color: #172033;
+}
+
+header {
+  border-bottom: 1px solid #e8edf5;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.logo {
+  letter-spacing: -0.5px;
+}
+
+#search {
+  background: #f8fafc;
+  border: 1px solid #dbe5f2;
+  transition: .2s;
+}
+
+#search:focus {
+  outline: 2px solid #93c5fd;
+  border-color: #2563eb;
+  background: #fff;
+}
+
+nav {
+  background: linear-gradient(90deg, #1d4ed8, #2563eb);
+  box-shadow: 0 4px 12px #1d4ed820;
+}
+
+.hero {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(120deg, #1e40af, #2563eb 55%, #059669);
+  box-shadow: 0 14px 35px #1d4ed825;
+}
+
+.hero p {
+  max-width: 650px;
+}
+
+.hero a {
+  box-shadow: 0 5px 14px #00000015;
+  transition: .2s;
+}
+
+.hero a:hover {
+  transform: translateY(-2px);
+  background: #eff6ff;
+}
+
+.grid {
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid #e6ebf2;
+  border-radius: 16px;
+  box-shadow: 0 3px 12px #17203308;
+  transition: transform .2s, box-shadow .2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 14px 28px #17203315;
+}
+
+.card img {
+  background: #fff;
+  padding: 12px;
+}
+
+.info h3 {
+  font-weight: 600;
+}
+
+.price {
+  font-size: 22px;
+  color: #059669;
+}
+
+.buy {
+  background: linear-gradient(90deg, #2563eb, #1d4ed8);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px #2563eb25;
+  transition: .2s;
+}
+
+.buy:hover {
+  background: #059669;
+  transform: translateY(-1px);
+}
+
+.filters button {
+  border: 1px solid #e0e7f0;
+  background: #fff;
+  transition: .2s;
+}
+
+.filters button:hover {
+  border-color: #2563eb;
+  color: #2563eb;
+}
+
+.filters button.active {
+  background: #2563eb;
+  color: #fff;
+}
+
+.notice {
+  border: 1px solid #dbeafe;
+  background: #eff6ff;
+}
+
+footer {
+  background: #101828;
+  border-top: 4px solid #2563eb;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    gap: 12px;
+  }
+
+  .card {
+    border-radius: 12px;
+  }
+
+  .card img {
+    padding: 6px;
+  }
+
+  .buy {
+    font-size: 13px;
+    padding: 10px 5px;
+  }
+
+  .hero {
+    box-shadow: 0 8px 20px #1d4ed820;
+  }
+}
+
 </head>
 <body>
 <header>
